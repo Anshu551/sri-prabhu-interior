@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Poppins:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #0A0A0A;
+  --color-accent: #D4AF37;
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Poppins", sans-serif;
+  --shadow-gold: 0 0 15px rgba(212, 175, 55, 0.3);
+  --shadow-gold-hover: 0 0 30px rgba(212, 175, 55, 0.5);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-primary text-white font-sans overflow-x-hidden transition-colors duration-500;
+  }
+  h1, h2, h3, h4, .serif {
+    @apply font-serif;
+  }
+}
+
+@layer utilities {
+  .glass {
+    @apply backdrop-blur-xl bg-black/10 border border-white/10;
+  }
+  .text-glow {
+    text-shadow: 0 0 10px rgba(212, 175, 55, 0.5);
+  }
+  .gold-glow-hover {
+    @apply transition-all duration-500 hover:shadow-gold-hover hover:border-accent/50;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  @apply bg-primary;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-accent/40 rounded-full hover:bg-accent/60 transition-colors;
+}
+
+/* Premium CTA Button */
+.btn-premium {
+  @apply px-8 py-4 bg-accent text-primary text-[10px] font-bold uppercase tracking-[0.3em] transition-all duration-500 rounded-sm relative overflow-hidden shadow-lg shadow-accent/10 inline-flex items-center justify-center;
+}
+
+.btn-premium:hover {
+  @apply bg-white text-primary shadow-xl shadow-white/20 -translate-y-[2px];
+}
+
+.btn-premium::after {
+  content: "";
+  @apply absolute top-0 -left-full w-full h-full bg-gradient-to-r from-transparent via-white/30 to-transparent skew-x-[-20deg] transition-all duration-1000;
+}
+
+.btn-premium:hover::after {
+  @apply left-full;
+}
