@@ -88,9 +88,9 @@ const ServicePage = () => {
           </div>
 
           {/* Featured Image Grid — handles 1 or 2 images safely */}
-          <div className={`grid gap-4 ${service.works.length >= 2 ? 'grid-cols-2' : 'grid-cols-1'}`}>
+          <div className={`grid gap-4 ${service.works.length >= 2 ? 'grid-cols-1 md:grid-cols-2' : 'grid-cols-1'}`}>
             {service.works.map((work, idx) => (
-              <div key={idx} className={idx === 0 ? '' : 'pt-8'}>
+              <div key={idx} className={idx === 0 ? '' : 'md:pt-8'}>
                 <img
                   src={work}
                   className="w-full h-72 object-cover rounded-sm grayscale hover:grayscale-0 transition-all duration-700"

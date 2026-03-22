@@ -60,7 +60,7 @@ const Hero = () => {
       <div className="absolute inset-0 z-0">
         <img 
           src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&q=80&w=2000" 
-          alt="Luxury Interior" 
+          alt="Best Luxury Home Interior Design in Chennai" 
           className="hero-bg w-full h-[120%] object-cover opacity-40 scale-110"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-primary via-primary/80 to-transparent" />

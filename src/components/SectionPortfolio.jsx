@@ -21,7 +21,7 @@ const SectionPortfolio = () => {
       id="portfolio"
       style={{ opacity: 1, visibility: 'visible', background: '#0A0A0A', padding: '6rem 0' }}
     >
-      <div style={{ maxWidth: '1300px', margin: '0 auto', padding: '0 2rem' }}>
+      <div style={{ maxWidth: '1300px', margin: '0 auto', padding: '0 1.25rem' }}>
 
         {/* Header */}
         <div style={{ textAlign: 'center', marginBottom: '4rem' }}>
@@ -86,7 +86,7 @@ const SectionPortfolio = () => {
         {/* Projects Grid */}
         <div style={{
           display: 'grid',
-          gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))',
+          gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))',
           gap: '1.5rem',
         }}>
           {filteredProjects.map((project) => (

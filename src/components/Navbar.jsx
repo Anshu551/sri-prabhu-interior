@@ -149,7 +149,7 @@ const Navbar = () => {
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: (navLinks.length + 2) * 0.1 }}
-                  href="https://wa.me/918925472510" 
+                  href="https://wa.me/918925472510?text=Hello%20SRI%20PRABHU%20INTERIOR%2C%20I%20would%20like%20to%20discuss%20a%20project." 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="btn-premium w-full flex items-center justify-center gap-3 py-5"

@@ -65,7 +65,7 @@ const Testimonials = () => {
           </div>
 
           <div className="relative">
-            <div className="testimonial-content min-h-[400px] flex flex-col justify-center p-16 bg-[#0E0E0E] rounded-3xl border border-white/5 shadow-2xl relative group hover:border-accent/30 transition-all duration-500">
+            <div className="testimonial-content min-h-[400px] flex flex-col justify-center p-8 md:p-16 bg-[#0E0E0E] rounded-3xl border border-white/5 shadow-2xl relative group hover:border-accent/30 transition-all duration-500">
               <div className="absolute top-[-20px] left-[-20px] text-accent/20 text-9xl serif leading-none pointer-events-none">“</div>
               
               <div className="flex gap-1 mb-10">
@@ -74,7 +74,7 @@ const Testimonials = () => {
                 ))}
               </div>
 
-              <p className="text-3xl serif italic text-white/90 leading-relaxed mb-12">
+              <p className="text-xl md:text-3xl serif italic text-white/90 leading-relaxed mb-12">
                 {testimonials[activeIndex].text}
               </p>
 

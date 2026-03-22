@@ -57,7 +57,7 @@ const ContactForm = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ y: -10 }}
-                className="p-12 bg-primary border border-accent/20 rounded-3xl flex flex-col items-center justify-center text-center group relative overflow-hidden"
+                className="p-8 md:p-12 bg-primary border border-accent/20 rounded-3xl flex flex-col items-center justify-center text-center group relative overflow-hidden"
               >
                 <div className="absolute inset-0 bg-accent/5 opacity-0 group-hover:opacity-100 transition-opacity" />
                 <div className="w-20 h-20 bg-[#25D366]/10 rounded-full flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
@@ -72,7 +72,7 @@ const ContactForm = () => {
               <motion.a 
                 href="tel:+918925472510"
                 whileHover={{ y: -10 }}
-                className="p-12 bg-primary border border-white/10 rounded-3xl flex flex-col items-center justify-center text-center group relative overflow-hidden"
+                className="p-8 md:p-12 bg-primary border border-white/10 rounded-3xl flex flex-col items-center justify-center text-center group relative overflow-hidden"
               >
                 <div className="absolute inset-0 bg-white/5 opacity-0 group-hover:opacity-100 transition-opacity" />
                 <div className="w-20 h-20 bg-accent/10 rounded-full flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
