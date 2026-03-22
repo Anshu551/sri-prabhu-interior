@@ -160,7 +160,7 @@ export const servicesData = [
     icon: <Lightbulb size={36} />,
     title: 'Lighting',
     desc: 'Architectural and decorative lighting crafted to set the perfect mood in every room.',
-    img: 'https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?auto=format&fit=crop&w=1200&q=80',
+    img: '/images/lighting-1.jpg',
     fullDesc: 'Lighting is the jewelry of your home. We design lighting layers — Ambient, Task, and Accent — to create the perfect atmosphere for every occasion.',
     features: [
       'Custom Lighting Layout Design',
@@ -170,8 +170,11 @@ export const servicesData = [
       'Energy Efficient LED Solutions',
     ],
     works: [
-      'https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?auto=format&fit=crop&w=800&q=80',
-      'https://images.unsplash.com/photo-1524484485831-a92ffc0bc03c?auto=format&fit=crop&w=800&q=80',
+      '/images/lighting-1.jpg',
+      '/images/lighting-2.jpg',
+      '/images/lighting-3.jpg',
+      '/images/lighting-4.jpg',
+      '/images/lighting-5.jpg',
     ],
   },
   {
