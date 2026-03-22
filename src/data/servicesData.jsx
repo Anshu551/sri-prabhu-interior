@@ -253,7 +253,7 @@ export const servicesData = [
     icon: <Armchair size={36} />,
     title: 'Furniture Works',
     desc: 'Custom-crafted, luxury furniture built with premium materials to fit your space perfectly.',
-    img: 'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1200&q=80',
+    img: '/images/furniture-1.jpg',
     fullDesc: 'Our master craftsmen create bespoke sofas, dining sets, wardrobes, and TV units using premium materials like solid teak, marine plywood, and designer veneers. Every piece is built to last.',
     features: [
       'Custom Wardrobe & Storage Solutions',
@@ -263,8 +263,11 @@ export const servicesData = [
       'High-End Hardware & Soft-Close Systems',
     ],
     works: [
-      'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=800&q=80',
-      'https://images.unsplash.com/photo-1583847268964-b28dc2f518a3?auto=format&fit=crop&w=800&q=80',
+      '/images/furniture-1.jpg',
+      '/images/furniture-2.jpg',
+      '/images/furniture-3.jpg',
+      '/images/furniture-4.jpg',
+      '/images/furniture-5.jpg',
     ],
   },
   {

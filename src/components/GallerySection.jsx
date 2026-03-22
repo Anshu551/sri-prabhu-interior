@@ -1,9 +1,14 @@
 import React, { useState } from 'react';
 import { X, Mail } from 'lucide-react';
 
-const categories = ['All', 'Interior', 'Kitchen', 'Office', 'Lighting', 'Flooring', 'Ceiling', 'Wallpaper', 'Paint', 'Half Built', 'Completed'];
+const categories = ['All', 'Interior', 'Kitchen', 'Office', 'Furniture', 'Lighting', 'Flooring', 'Ceiling', 'Wallpaper', 'Paint', 'Half Built', 'Completed'];
 
 const galleryImages = [
+  { id: 74, category: 'Furniture',   title: 'Modern TV Unit',            img: '/images/furniture-1.jpg' },
+  { id: 75, category: 'Furniture',   title: 'Hexagonal Wall Shelf',      img: '/images/furniture-2.jpg' },
+  { id: 76, category: 'Furniture',   title: 'Premium Vanity Mirror',     img: '/images/furniture-3.jpg' },
+  { id: 77, category: 'Furniture',   title: 'Designer Corner Shelf',     img: '/images/furniture-4.jpg' },
+  { id: 78, category: 'Furniture',   title: 'Zig-Zag Bookshelf',         img: '/images/furniture-5.jpg' },
   { id: 72, category: 'Wallpaper',   title: 'Designer Peacock Mural',    img: '/images/wallpaper-5.jpg' },
   { id: 73, category: 'Wallpaper',   title: 'Traditional Pichwai Art',   img: '/images/wallpaper-6.jpg' },
   { id: 67, category: 'Wallpaper',   title: 'Abstract Alcohol Ink',      img: '/images/wallpaper-1.jpg' },
