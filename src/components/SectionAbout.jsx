@@ -58,11 +58,11 @@ const SectionAbout = () => {
             </div>
             
             <p className="text-lg md:text-xl text-white/70 font-light leading-relaxed serif italic">
-              "At SRI PRABHU INTERIOR, we specialize in creating luxurious and functional spaces tailored to your lifestyle and business needs."
+              "As the leading <span className="text-accent underline decoration-accent/30 underline-offset-8">interior designers in Chennai</span>, we specialize in luxury modular kitchens, ceilings, and custom furniture tailored to your lifestyle."
             </p>
             
             <p className="text-lg text-white/50 leading-relaxed font-light">
-              Based in Chennai, Tamil Nadu, we deliver high-quality interior solutions with attention to detail, elegance, and modern design principles. Our approach combines traditional values with contemporary luxury.
+              Based in Chennai, Tamil Nadu, we deliver the best interior design services near you with attention to detail, elegance, and modern design principles. Our expertise covers all major locations across Chennai.
             </p>
 
             <div className="flex gap-12 pt-6 items-center">

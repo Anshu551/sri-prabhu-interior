@@ -80,7 +80,7 @@ const Hero = () => {
             <span className="serif text-accent italic">INTERIOR</span>
           </h1>
           <p className="hero-span text-base md:text-lg lg:text-xl text-white/50 mb-12 max-w-lg font-light leading-relaxed">
-            Complete Home, Office & Commercial Interiors. We turn your vision into architectural reality with unparalleled craftsmanship and luxury.
+            The <span className="text-accent font-medium">best interior designers in Chennai</span> for Complete Home, Office & Commercial Interiors. We turn your vision into architectural reality.
           </p>
           <div className="hero-cta flex flex-col sm:flex-row gap-6">
             <a 
