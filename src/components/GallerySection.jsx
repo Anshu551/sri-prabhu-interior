@@ -4,6 +4,8 @@ import { X, Mail } from 'lucide-react';
 const categories = ['All', 'Interior', 'Kitchen', 'Flooring', 'Ceiling', 'Wallpaper', 'Paint', 'Half Built', 'Completed'];
 
 const galleryImages = [
+  { id: 34, category: 'Kitchen',     title: 'Stylish Purple Kitchen',    img: '/images/modular-kitchen-5.jpg' },
+  { id: 35, category: 'Kitchen',     title: 'High-Gloss Grey Kitchen',   img: '/images/modular-kitchen-6.jpg' },
   { id: 30, category: 'Kitchen',     title: 'Modern Modular Kitchen',    img: '/images/modular-kitchen-1.jpg' },
   { id: 31, category: 'Kitchen',     title: 'Sleek Island Kitchen',      img: '/images/modular-kitchen-2.jpg' },
   { id: 32, category: 'Kitchen',     title: 'Designer Kitchen Space',    img: '/images/modular-kitchen-3.jpg' },

@@ -123,6 +123,8 @@ export const servicesData = [
       '/images/modular-kitchen-2.jpg',
       '/images/modular-kitchen-3.jpg',
       '/images/modular-kitchen-4.jpg',
+      '/images/modular-kitchen-5.jpg',
+      '/images/modular-kitchen-6.jpg',
     ],
   },
   {
