@@ -208,7 +208,7 @@ export const servicesData = [
     icon: <ImageIcon size={36} />,
     title: 'Wallpapers',
     desc: 'Exclusive designer wallpapers that add texture, drama, and personality to your spaces.',
-    img: 'https://images.unsplash.com/photo-1615529328331-f8917597711f?auto=format&fit=crop&w=1200&q=80',
+    img: '/images/wallpaper-1.jpg',
     fullDesc: 'Add a touch of elegance and personality to any room with our premium wallpaper collection. We offer thousands of designs, from classic patterns to modern digital murals.',
     features: [
       'Imported Designer Wallpapers',
@@ -218,8 +218,10 @@ export const servicesData = [
       'Moisture Resistant Options',
     ],
     works: [
-      'https://images.unsplash.com/photo-1615529328331-f8917597711f?auto=format&fit=crop&w=800&q=80',
-      'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=800&q=80',
+      '/images/wallpaper-1.jpg',
+      '/images/wallpaper-2.jpg',
+      '/images/wallpaper-3.jpg',
+      '/images/wallpaper-4.jpg',
     ],
   },
   {
@@ -241,6 +243,7 @@ export const servicesData = [
       '/images/false-ceiling-2.jpg',
       '/images/false-ceiling-3.jpg',
       '/images/false-ceiling-4.jpg',
+      '/images/false-ceiling-5.jpg',
     ],
   },
   {

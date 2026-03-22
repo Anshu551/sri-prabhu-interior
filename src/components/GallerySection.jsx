@@ -4,6 +4,11 @@ import { X, Mail } from 'lucide-react';
 const categories = ['All', 'Interior', 'Kitchen', 'Office', 'Lighting', 'Flooring', 'Ceiling', 'Wallpaper', 'Paint', 'Half Built', 'Completed'];
 
 const galleryImages = [
+  { id: 67, category: 'Wallpaper',   title: 'Abstract Alcohol Ink',      img: '/images/wallpaper-1.jpg' },
+  { id: 68, category: 'Wallpaper',   title: 'Silver Damask Texture',     img: '/images/wallpaper-2.jpg' },
+  { id: 69, category: 'Wallpaper',   title: 'Tropical Leaf Print',       img: '/images/wallpaper-3.jpg' },
+  { id: 70, category: 'Wallpaper',   title: 'Classic Damask Pattern',    img: '/images/wallpaper-4.jpg' },
+  { id: 71, category: 'Ceiling',     title: 'Square Geometric POP',      img: '/images/false-ceiling-5.jpg' },
   { id: 63, category: 'Ceiling',     title: 'Modern PVC Ceiling',        img: '/images/false-ceiling-1.jpg' },
   { id: 64, category: 'Ceiling',     title: 'Wooden Finish Ceiling',     img: '/images/false-ceiling-2.jpg' },
   { id: 65, category: 'Ceiling',     title: 'Architectural PVC Design',  img: '/images/false-ceiling-3.jpg' },
