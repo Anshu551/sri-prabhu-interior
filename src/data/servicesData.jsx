@@ -197,6 +197,10 @@ export const servicesData = [
       '/images/painting-3.jpg',
       '/images/painting-4.jpg',
       '/images/painting-5.jpg',
+      '/images/painting-6.jpg',
+      '/images/painting-7.jpg',
+      '/images/painting-8.jpg',
+      '/images/painting-9.jpg',
     ],
   },
   {
