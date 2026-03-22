@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X, Phone, MessageSquare } from 'lucide-react';
+import { Link, useNavigate } from 'react-router-dom';
 import { cn } from '../utils/cn';
 
 const Navbar = () => {
@@ -16,13 +17,27 @@ const Navbar = () => {
   }, []);
 
   const navLinks = [
-    { name: 'Home', href: '#home' },
-    { name: 'About', href: '#about' },
-    { name: 'Services', href: '#services' },
-    { name: 'Portfolio', href: '#portfolio' },
-    { name: 'Testimonials', href: '#testimonials' },
-    { name: 'Contact', href: '#contact' },
+    { name: 'Home', path: '/#home' },
+    { name: 'About', path: '/#about' },
+    { name: 'Services', path: '/#services' },
+    { name: 'Portfolio', path: '/#portfolio' },
+    { name: 'Testimonials', path: '/#testimonials' },
+    { name: 'Contact', path: '/#contact' },
   ];
+
+  const handleNavClick = (e, path) => {
+    if (path.startsWith('/#')) {
+      const section = path.split('#')[1];
+      if (window.location.pathname === '/') {
+        e.preventDefault();
+        const element = document.getElementById(section);
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth' });
+        }
+      }
+    }
+    setIsOpen(false);
+  };
 
   return (
     <nav 
@@ -33,27 +48,32 @@ const Navbar = () => {
     >
       <div className="container mx-auto px-6 flex justify-between items-center h-full relative">
         {/* Logo Side */}
-        <a href="#home" className="flex items-center gap-4 shrink-0 transition-transform duration-500 hover:scale-105 mr-12 xl:mr-20 relative z-[70]">
-          <img src="/logo.png" alt="SRI PRABHU INTERIOR" className="h-14 w-auto object-contain bg-white p-1 rounded-sm shadow-lg" />
-          <div className="flex flex-col border-l border-accent/30 pl-4 h-12 justify-center hidden sm:flex">
-            <span className="text-xl font-bold tracking-[0.1em] serif text-accent leading-none mb-1">SRI PRABHU</span>
-            <span className="text-[9px] tracking-[0.3em] uppercase text-white/40 leading-none">INTERIOR</span>
+        <Link 
+          to="/#home" 
+          onClick={(e) => handleNavClick(e, '/#home')}
+          className="flex items-center gap-3 sm:gap-4 shrink-0 transition-transform duration-500 hover:scale-105 mr-4 sm:mr-12 xl:mr-20 relative z-[70]"
+        >
+          <img src="/logo.png" alt="SRI PRABHU INTERIOR" className="h-14 sm:h-20 w-auto object-contain bg-white p-1 rounded-sm shadow-lg" />
+          <div className="flex flex-col border-l border-accent/30 pl-3 sm:pl-4 h-10 sm:h-12 justify-center">
+            <span className="text-sm sm:text-xl font-bold tracking-[0.1em] serif text-accent leading-none mb-1">SRI PRABHU</span>
+            <span className="text-[7px] sm:text-[9px] tracking-[0.2em] sm:tracking-[0.3em] uppercase text-white/40 leading-none">INTERIOR</span>
           </div>
-        </a>
+        </Link>
 
         {/* Right Side: Desktop Nav + Contact */}
         <div className="hidden lg:flex items-center gap-12 xl:gap-20">
           {/* Desktop Nav */}
           <div className="flex gap-8 xl:gap-12">
             {navLinks.map((link) => (
-              <a 
+              <Link 
                 key={link.name} 
-                href={link.href}
+                to={link.path}
+                onClick={(e) => handleNavClick(e, link.path)}
                 className="group relative text-[11px] font-bold uppercase tracking-[0.2em] text-white/60 hover:text-accent transition-colors duration-300 whitespace-nowrap"
               >
                 {link.name}
                 <span className="absolute -bottom-1 left-0 w-0 h-[1px] bg-accent transition-all duration-300 group-hover:w-full" />
-              </a>
+              </Link>
             ))}
           </div>
 
@@ -98,17 +118,20 @@ const Navbar = () => {
           >
             <div className="flex flex-col items-center gap-10">
               {navLinks.map((link, idx) => (
-                <motion.a 
+                <motion.div
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: idx * 0.1 }}
-                  key={link.name} 
-                  href={link.href}
-                  className="text-2xl font-bold uppercase tracking-[0.4em] text-white/70 hover:text-accent transition-colors"
-                  onClick={() => setIsOpen(false)}
+                  key={link.name}
                 >
-                  {link.name}
-                </motion.a>
+                  <Link 
+                    to={link.path}
+                    className="text-2xl font-bold uppercase tracking-[0.4em] text-white/70 hover:text-accent transition-colors"
+                    onClick={(e) => handleNavClick(e, link.path)}
+                  >
+                    {link.name}
+                  </Link>
+                </motion.div>
               ))}
               <div className="flex flex-col gap-4 mt-8 w-full px-10">
                 <motion.a 

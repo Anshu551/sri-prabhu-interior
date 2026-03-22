@@ -1,62 +1,10 @@
 import React from 'react';
-import { Home, ChefHat, Layers, Lightbulb, PaintBucket, Image as ImageIcon, Layout, Armchair, Palette } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
+import { Home, ChefHat, Layers, Lightbulb, PaintBucket, Image as ImageIcon, Layout, Armchair, Palette, Building2 } from 'lucide-react';
 
-const services = [
-  {
-    icon: <Home size={36} />,
-    title: 'Complete Interior Design',
-    desc: 'End-to-end luxury transformations for homes and offices — from concept to flawless completion.',
-    img: 'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&q=80&w=800',
-  },
-  {
-    icon: <ChefHat size={36} />,
-    title: 'Modular Kitchen',
-    desc: 'Smart, elegant, and highly functional modular kitchen designs built for the modern home.',
-    img: 'https://images.unsplash.com/photo-1556911220-e150213ff7ad?auto=format&fit=crop&q=80&w=800',
-  },
-  {
-    icon: <Layers size={36} />,
-    title: 'Flooring',
-    desc: 'Premium marble, hardwood, and tile flooring solutions for every style and budget.',
-    img: 'https://images.unsplash.com/photo-1581850518616-bcb8186ca449?auto=format&fit=crop&q=80&w=800',
-  },
-  {
-    icon: <Lightbulb size={36} />,
-    title: 'Lighting',
-    desc: 'Architectural and decorative lighting crafted to set the perfect mood in every room.',
-    img: 'https://images.unsplash.com/photo-1540518614846-7eded433c457?auto=format&fit=crop&q=80&w=800',
-  },
-  {
-    icon: <PaintBucket size={36} />,
-    title: 'Painting',
-    desc: 'Professional painting with premium textures, royal finishes, and expert color curation.',
-    img: 'https://images.unsplash.com/photo-1562619371-b6703f83792c?auto=format&fit=crop&q=80&w=800',
-  },
-  {
-    icon: <ImageIcon size={36} />,
-    title: 'Wallpapers',
-    desc: 'Exclusive designer wallpapers that add texture, drama, and personality to your spaces.',
-    img: 'https://images.unsplash.com/photo-1615529328331-f8917597711f?auto=format&fit=crop&q=80&w=800',
-  },
-  {
-    icon: <Layout size={36} />,
-    title: 'All Type of False Ceiling',
-    desc: 'POP, gypsum, wooden, and metal false ceilings that elevate every room to new heights.',
-    img: 'https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&q=80&w=800',
-  },
-  {
-    icon: <Armchair size={36} />,
-    title: 'Furniture Works',
-    desc: 'Custom-crafted, luxury furniture built with premium materials to fit your space perfectly.',
-    img: 'https://images.unsplash.com/photo-1538688525198-9b88f6f5012a?auto=format&fit=crop&q=80&w=800',
-  },
-  {
-    icon: <Palette size={36} />,
-    title: 'Wall Art and Decor',
-    desc: 'Curated artworks, sculptures, and decor pieces that give your interiors the final touch of brilliance.',
-    img: 'https://images.unsplash.com/photo-1549887534-1541e9326642?auto=format&fit=crop&q=80&w=800',
-  },
-];
+import { servicesData as services } from '../data/servicesData.jsx';
+
+
 
 const SectionServices = () => {
   return (
@@ -130,11 +78,13 @@ const SectionServices = () => {
 
 const ServiceCard = ({ service, index }) => {
   const [hovered, setHovered] = React.useState(false);
+  const navigate = useNavigate();
 
   return (
     <div
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
+      onClick={() => navigate(`/services/${service.id}`)}
       style={{
         position: 'relative',
         overflow: 'hidden',
