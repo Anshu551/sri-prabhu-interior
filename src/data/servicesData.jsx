@@ -135,7 +135,7 @@ export const servicesData = [
     icon: <Layers size={36} />,
     title: 'Flooring',
     desc: 'Premium marble, hardwood, and tile flooring solutions for every style and budget.',
-    img: 'https://images.unsplash.com/photo-1546422401-68bc3d5e7e07?auto=format&fit=crop&w=1200&q=80',
+    img: '/images/flooring-1.jpg',
     fullDesc: 'The foundation of any great interior is its flooring. We offer a curated selection of premium flooring materials, from exquisite Italian marble and hardwood to durable vitrified tiles and decorative wooden flooring.',
     features: [
       'Italian & Indian Marble Installation',
@@ -145,8 +145,11 @@ export const servicesData = [
       'Precision Levelling & Grouting',
     ],
     works: [
-      'https://images.unsplash.com/photo-1546422401-68bc3d5e7e07?auto=format&fit=crop&w=800&q=80',
-      'https://images.unsplash.com/photo-1516455590571-18256e5bb9ff?auto=format&fit=crop&w=800&q=80',
+      '/images/flooring-1.jpg',
+      '/images/flooring-2.jpg',
+      '/images/flooring-3.jpg',
+      '/images/flooring-4.jpg',
+      '/images/flooring-5.jpg',
     ],
   },
   {

@@ -4,6 +4,11 @@ import { X, Mail } from 'lucide-react';
 const categories = ['All', 'Interior', 'Kitchen', 'Office', 'Flooring', 'Ceiling', 'Wallpaper', 'Paint', 'Half Built', 'Completed'];
 
 const galleryImages = [
+  { id: 41, category: 'Flooring',    title: 'Polished Marble Floor',     img: '/images/flooring-1.jpg' },
+  { id: 42, category: 'Flooring',    title: 'Designer Tile Pattern',     img: '/images/flooring-2.jpg' },
+  { id: 43, category: 'Flooring',    title: 'Premium Hardwood Floor',    img: '/images/flooring-3.jpg' },
+  { id: 44, category: 'Flooring',    title: 'Classic Wooden Flooring',   img: '/images/flooring-4.jpg' },
+  { id: 45, category: 'Flooring',    title: 'Luxury Floor Selection',    img: '/images/flooring-5.jpg' },
   { id: 36, category: 'Office',      title: 'Executive Office Cabin',    img: '/images/office-interior-1.jpg' },
   { id: 37, category: 'Office',      title: 'Modern Wood Cabin',        img: '/images/office-interior-2.jpg' },
   { id: 38, category: 'Office',      title: 'Luxury CEO Suite',          img: '/images/office-interior-3.jpg' },
