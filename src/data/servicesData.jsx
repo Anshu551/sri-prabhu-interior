@@ -109,7 +109,7 @@ export const servicesData = [
     icon: <ChefHat size={36} />,
     title: 'Modular Kitchen',
     desc: 'Smart, elegant, and highly functional modular kitchen designs built for the modern home.',
-    img: 'https://images.unsplash.com/photo-1556911220-e150213ff7ad?auto=format&fit=crop&w=1200&q=80',
+    img: '/images/modular-kitchen-1.jpg',
     fullDesc: 'Create the kitchen of your dreams with our custom modular solutions. We combine ergonomics with aesthetics to deliver kitchens that are as functional as they are beautiful.',
     features: [
       'Ergonomic Work Triangle Design',
@@ -119,8 +119,10 @@ export const servicesData = [
       'Integrated Appliance Planning',
     ],
     works: [
-      'https://images.unsplash.com/photo-1556911220-e150213ff7ad?auto=format&fit=crop&w=800&q=80',
-      'https://images.unsplash.com/photo-1556912177-f2c3c12ce359?auto=format&fit=crop&w=800&q=80',
+      '/images/modular-kitchen-1.jpg',
+      '/images/modular-kitchen-2.jpg',
+      '/images/modular-kitchen-3.jpg',
+      '/images/modular-kitchen-4.jpg',
     ],
   },
   {

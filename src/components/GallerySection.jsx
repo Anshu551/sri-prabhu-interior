@@ -1,9 +1,13 @@
 import React, { useState } from 'react';
 import { X, Mail } from 'lucide-react';
 
-const categories = ['All', 'Interior', 'Flooring', 'Ceiling', 'Wallpaper', 'Paint', 'Half Built', 'Completed'];
+const categories = ['All', 'Interior', 'Kitchen', 'Flooring', 'Ceiling', 'Wallpaper', 'Paint', 'Half Built', 'Completed'];
 
 const galleryImages = [
+  { id: 30, category: 'Kitchen',     title: 'Modern Modular Kitchen',    img: '/images/modular-kitchen-1.jpg' },
+  { id: 31, category: 'Kitchen',     title: 'Sleek Island Kitchen',      img: '/images/modular-kitchen-2.jpg' },
+  { id: 32, category: 'Kitchen',     title: 'Designer Kitchen Space',    img: '/images/modular-kitchen-3.jpg' },
+  { id: 33, category: 'Kitchen',     title: 'Premium Kitchen Finish',    img: '/images/modular-kitchen-4.jpg' },
   { id: 26, category: 'Interior',    title: 'Modern Living Space',       img: '/images/home-interior-1.jpg' },
   { id: 27, category: 'Interior',    title: 'Contemporary TV Unit',      img: '/images/home-interior-2.jpg' },
   { id: 28, category: 'Interior',    title: 'Elegant Home Design',       img: '/images/home-interior-3.jpg' },
