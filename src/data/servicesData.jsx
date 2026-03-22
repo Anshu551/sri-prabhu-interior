@@ -182,7 +182,7 @@ export const servicesData = [
     icon: <PaintBucket size={36} />,
     title: 'Painting',
     desc: 'Professional painting with premium textures, royal finishes, and expert color curation.',
-    img: 'https://images.unsplash.com/photo-1562259949-e8e7689d7828?auto=format&fit=crop&w=1200&q=80',
+    img: '/images/painting-1.jpg',
     fullDesc: 'Transform your walls with our professional painting services. Beyond standard colors, we specialize in luxury finishes including royal emulsions, silk finishes, and exotic textures.',
     features: [
       'Premium Texture Painting',
@@ -192,8 +192,11 @@ export const servicesData = [
       'Dust-Free Mechanized Sanding',
     ],
     works: [
-      'https://images.unsplash.com/photo-1562259949-e8e7689d7828?auto=format&fit=crop&w=800&q=80',
-      'https://images.unsplash.com/photo-1589939705384-5185138a04b9?auto=format&fit=crop&w=800&q=80',
+      '/images/painting-1.jpg',
+      '/images/painting-2.jpg',
+      '/images/painting-3.jpg',
+      '/images/painting-4.jpg',
+      '/images/painting-5.jpg',
     ],
   },
   {

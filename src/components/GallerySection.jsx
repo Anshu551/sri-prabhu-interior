@@ -4,6 +4,11 @@ import { X, Mail } from 'lucide-react';
 const categories = ['All', 'Interior', 'Kitchen', 'Office', 'Lighting', 'Flooring', 'Ceiling', 'Wallpaper', 'Paint', 'Half Built', 'Completed'];
 
 const galleryImages = [
+  { id: 54, category: 'Paint',        title: 'Luxury Purple Finish',      img: '/images/painting-1.jpg' },
+  { id: 55, category: 'Paint',        title: 'Modern Blue Texture',       img: '/images/painting-2.jpg' },
+  { id: 56, category: 'Paint',        title: 'Geometric Accent Wall',     img: '/images/painting-3.jpg' },
+  { id: 57, category: 'Paint',        title: 'Elegant Royal Emulsion',    img: '/images/painting-4.jpg' },
+  { id: 58, category: 'Paint',        title: 'Textured Wall Design',      img: '/images/painting-5.jpg' },
   { id: 49, category: 'Lighting',    title: 'Modern Cove Lighting',      img: '/images/lighting-1.jpg' },
   { id: 50, category: 'Lighting',    title: 'Designer Wall Lights',      img: '/images/lighting-2.jpg' },
   { id: 51, category: 'Lighting',    title: 'Vertical Light Pattern',    img: '/images/lighting-3.jpg' },
