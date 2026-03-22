@@ -1,8 +1,14 @@
 import React from 'react';
-import { Instagram, Facebook, Twitter, Linkedin, ArrowUpRight } from 'lucide-react';
+import { Instagram, Facebook, Youtube, ArrowUpRight } from 'lucide-react';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
+
+  const socialLinks = [
+    { Name: 'Instagram', Icon: Instagram, link: "https://www.instagram.com/spiinteriors/?utm_source=ig_web_button_share_sheet" },
+    { Name: 'Facebook', Icon: Facebook, link: "#" },
+    { Name: 'Youtube', Icon: Youtube, link: "#" },
+  ];
 
   return (
     <footer className="bg-primary pt-24 pb-12 border-t border-white/5 relative overflow-hidden">
@@ -23,10 +29,12 @@ const Footer = () => {
               Crafting ultra-luxury, modern spaces with architectural precision and artistic vision. Based in Chennai, serving excellence.
             </p>
             <div className="flex gap-6">
-              {[Instagram, Facebook, Twitter, Linkedin].map((Icon, i) => (
+              {socialLinks.map(({ Icon, link }, i) => (
                 <a 
                   key={i} 
-                  href="#" 
+                  href={link}
+                  target={link !== '#' ? "_blank" : undefined}
+                  rel={link !== '#' ? "noopener noreferrer" : undefined}
                   className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center text-white/40 hover:text-accent hover:border-accent transition-all duration-300"
                 >
                   <Icon size={18} />
