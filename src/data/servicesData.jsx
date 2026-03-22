@@ -89,7 +89,7 @@ export const servicesData = [
     icon: <Building2 size={36} />,
     title: 'Office Interior',
     desc: 'Professional and inspiring office interiors designed to boost productivity and brand identity.',
-    img: 'https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1200&q=80',
+    img: '/images/office-interior-1.jpg',
     fullDesc: 'A well-designed office is a powerful asset. We design modern, functional, and brand-aligned office spaces that inspire teams and impress clients. From open workstations and sleek conference rooms to professional reception areas, we handle every detail with precision and expertise.',
     features: [
       'Space Planning for Productivity',
@@ -99,8 +99,11 @@ export const servicesData = [
       'Glass Partitions & Acoustic Panels',
     ],
     works: [
-      'https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=800&q=80',
-      'https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=800&q=80',
+      '/images/office-interior-1.jpg',
+      '/images/office-interior-2.jpg',
+      '/images/office-interior-3.jpg',
+      '/images/office-interior-4.jpg',
+      '/images/office-interior-5.jpg',
     ],
     checklist: officeChecklist,
   },
