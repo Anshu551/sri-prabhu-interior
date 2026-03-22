@@ -67,7 +67,7 @@ export const servicesData = [
     icon: <Home size={36} />,
     title: 'Home Interior',
     desc: 'Complete home interior solutions — from structural work to the finest decor details.',
-    img: 'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1200&q=80',
+    img: '/images/home-interior-1.jpg',
     fullDesc: 'We transform your house into a dream home. Our complete home interior service covers every element — from structural finishes like flooring, ceiling, and walls, to furniture, lighting, soft furnishings, and decor. Our team curates every detail to create a cohesive, luxurious living space tailored to your lifestyle.',
     features: [
       'Full Home Turnkey Solutions',
@@ -77,8 +77,10 @@ export const servicesData = [
       'Post-completion Support & Warranty',
     ],
     works: [
-      'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=800&q=80',
-      'https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=800&q=80',
+      '/images/home-interior-1.jpg',
+      '/images/home-interior-2.jpg',
+      '/images/home-interior-3.jpg',
+      '/images/home-interior-4.jpg',
     ],
     checklist: homeChecklist,
   },

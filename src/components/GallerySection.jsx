@@ -4,6 +4,10 @@ import { X, Mail } from 'lucide-react';
 const categories = ['All', 'Interior', 'Flooring', 'Ceiling', 'Wallpaper', 'Paint', 'Half Built', 'Completed'];
 
 const galleryImages = [
+  { id: 26, category: 'Interior',    title: 'Modern Living Space',       img: '/images/home-interior-1.jpg' },
+  { id: 27, category: 'Interior',    title: 'Contemporary TV Unit',      img: '/images/home-interior-2.jpg' },
+  { id: 28, category: 'Interior',    title: 'Elegant Home Design',       img: '/images/home-interior-3.jpg' },
+  { id: 29, category: 'Interior',    title: 'Luxury Resident Room',      img: '/images/home-interior-4.jpg' },
   { id: 1,  category: 'Interior',    title: 'Luxury Living Room',         img: 'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=800&q=80' },
   { id: 2,  category: 'Interior',    title: 'Modern Bedroom Suite',       img: 'https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=800&q=80' },
   { id: 3,  category: 'Flooring',    title: 'Marble Flooring',            img: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80' },
