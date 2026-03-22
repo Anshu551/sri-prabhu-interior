@@ -150,6 +150,9 @@ export const servicesData = [
       '/images/flooring-3.jpg',
       '/images/flooring-4.jpg',
       '/images/flooring-5.jpg',
+      '/images/flooring-6.jpg',
+      '/images/flooring-7.jpg',
+      '/images/flooring-8.jpg',
     ],
   },
   {

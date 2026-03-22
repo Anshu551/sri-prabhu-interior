@@ -4,6 +4,9 @@ import { X, Mail } from 'lucide-react';
 const categories = ['All', 'Interior', 'Kitchen', 'Office', 'Flooring', 'Ceiling', 'Wallpaper', 'Paint', 'Half Built', 'Completed'];
 
 const galleryImages = [
+  { id: 46, category: 'Flooring',    title: 'Modern Marble Hall',        img: '/images/flooring-6.jpg' },
+  { id: 47, category: 'Flooring',    title: 'Premium Tile Samples',      img: '/images/flooring-7.jpg' },
+  { id: 48, category: 'Flooring',    title: 'Designer Tile Grid',        img: '/images/flooring-8.jpg' },
   { id: 41, category: 'Flooring',    title: 'Polished Marble Floor',     img: '/images/flooring-1.jpg' },
   { id: 42, category: 'Flooring',    title: 'Designer Tile Pattern',     img: '/images/flooring-2.jpg' },
   { id: 43, category: 'Flooring',    title: 'Premium Hardwood Floor',    img: '/images/flooring-3.jpg' },
