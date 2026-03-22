@@ -227,7 +227,7 @@ export const servicesData = [
     icon: <Layout size={36} />,
     title: 'All Type of False Ceiling',
     desc: 'POP, gypsum, wooden, and metal false ceilings that elevate every room to new heights.',
-    img: 'https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80',
+    img: '/images/false-ceiling-1.jpg',
     fullDesc: 'Elevate your interiors literally with our designer false ceiling solutions. False ceilings hide electrical conduits and AC piping while providing thermal insulation and a canvas for architectural lighting.',
     features: [
       'Designer POP & Gypsum Ceilings',
@@ -237,8 +237,10 @@ export const servicesData = [
       'Quality Framing & Fire Safety',
     ],
     works: [
-      'https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=800&q=80',
-      'https://images.unsplash.com/photo-1600607687644-c7171bb3f256?auto=format&fit=crop&w=800&q=80',
+      '/images/false-ceiling-1.jpg',
+      '/images/false-ceiling-2.jpg',
+      '/images/false-ceiling-3.jpg',
+      '/images/false-ceiling-4.jpg',
     ],
   },
   {

@@ -4,6 +4,10 @@ import { X, Mail } from 'lucide-react';
 const categories = ['All', 'Interior', 'Kitchen', 'Office', 'Lighting', 'Flooring', 'Ceiling', 'Wallpaper', 'Paint', 'Half Built', 'Completed'];
 
 const galleryImages = [
+  { id: 63, category: 'Ceiling',     title: 'Modern PVC Ceiling',        img: '/images/false-ceiling-1.jpg' },
+  { id: 64, category: 'Ceiling',     title: 'Wooden Finish Ceiling',     img: '/images/false-ceiling-2.jpg' },
+  { id: 65, category: 'Ceiling',     title: 'Architectural PVC Design',  img: '/images/false-ceiling-3.jpg' },
+  { id: 66, category: 'Ceiling',     title: 'Designer Wood Ceiling',     img: '/images/false-ceiling-4.jpg' },
   { id: 59, category: 'Paint',        title: 'Teal Stencil Wall',         img: '/images/painting-6.jpg' },
   { id: 60, category: 'Paint',        title: 'Yellow Geometric Wall',     img: '/images/painting-7.jpg' },
   { id: 61, category: 'Paint',        title: 'Modern Blue Finish',      img: '/images/painting-8.jpg' },
