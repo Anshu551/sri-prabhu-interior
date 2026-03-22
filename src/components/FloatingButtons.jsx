@@ -1,5 +1,5 @@
 import React from 'react';
-import { MessageCircle } from 'lucide-react';
+import { MessageCircle, Instagram } from 'lucide-react';
 
 const FloatingButtons = () => {
   return (
@@ -13,6 +13,36 @@ const FloatingButtons = () => {
       alignItems: 'flex-end',
       gap: '0.75rem',
     }}>
+      {/* Instagram Button */}
+      <a
+        href="https://www.instagram.com/spiinteriors/?utm_source=ig_web_button_share_sheet"
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          width: '58px',
+          height: '58px',
+          background: 'linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%)',
+          color: '#fff',
+          borderRadius: '50%',
+          boxShadow: '0 8px 30px rgba(220,39,67,0.45)',
+          transition: 'transform 0.3s, box-shadow 0.3s',
+        }}
+        onMouseEnter={e => {
+          e.currentTarget.style.transform = 'translateY(-3px) scale(1.1)';
+          e.currentTarget.style.boxShadow = '0 14px 40px rgba(220,39,67,0.6)';
+        }}
+        onMouseLeave={e => {
+          e.currentTarget.style.transform = 'translateY(0) scale(1)';
+          e.currentTarget.style.boxShadow = '0 8px 30px rgba(220,39,67,0.45)';
+        }}
+        aria-label="Follow us on Instagram"
+      >
+        <Instagram size={28} />
+      </a>
+
       {/* WhatsApp Button */}
       <a
         href="https://wa.me/918925472510?text=Hello%20SRI%20PRABHU%20INTERIOR%2C%20I%20would%20like%20to%20discuss%20a%20project."
