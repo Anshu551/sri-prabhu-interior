@@ -24,7 +24,6 @@ const ContactForm = () => {
                 <div>
                   <p className="text-[10px] uppercase font-bold tracking-widest text-white/40 mb-2">Phone</p>
                   <p className="text-lg font-bold hover:text-accent transition-colors">+91 8925472510</p>
-                  <p className="text-lg font-bold hover:text-accent transition-colors">+91 8925472510</p>
                 </div>
               </div>
               
