@@ -222,6 +222,8 @@ export const servicesData = [
       '/images/wallpaper-2.jpg',
       '/images/wallpaper-3.jpg',
       '/images/wallpaper-4.jpg',
+      '/images/wallpaper-5.jpg',
+      '/images/wallpaper-6.jpg',
     ],
   },
   {

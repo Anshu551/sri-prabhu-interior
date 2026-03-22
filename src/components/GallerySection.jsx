@@ -4,6 +4,8 @@ import { X, Mail } from 'lucide-react';
 const categories = ['All', 'Interior', 'Kitchen', 'Office', 'Lighting', 'Flooring', 'Ceiling', 'Wallpaper', 'Paint', 'Half Built', 'Completed'];
 
 const galleryImages = [
+  { id: 72, category: 'Wallpaper',   title: 'Designer Peacock Mural',    img: '/images/wallpaper-5.jpg' },
+  { id: 73, category: 'Wallpaper',   title: 'Traditional Pichwai Art',   img: '/images/wallpaper-6.jpg' },
   { id: 67, category: 'Wallpaper',   title: 'Abstract Alcohol Ink',      img: '/images/wallpaper-1.jpg' },
   { id: 68, category: 'Wallpaper',   title: 'Silver Damask Texture',     img: '/images/wallpaper-2.jpg' },
   { id: 69, category: 'Wallpaper',   title: 'Tropical Leaf Print',       img: '/images/wallpaper-3.jpg' },
