@@ -1,9 +1,14 @@
 import React, { useState } from 'react';
 import { X, Mail } from 'lucide-react';
 
-const categories = ['All', 'Interior', 'Kitchen', 'Office', 'Furniture', 'Lighting', 'Flooring', 'Ceiling', 'Wallpaper', 'Paint', 'Half Built', 'Completed'];
+const categories = ['All', 'Interior', 'Kitchen', 'Office', 'Furniture', 'Wall Art', 'Lighting', 'Flooring', 'Ceiling', 'Wallpaper', 'Paint', 'Half Built', 'Completed'];
 
 const galleryImages = [
+  { id: 79, category: 'Wall Art',    title: 'Cherry Blossom Mural',      img: '/images/wall-art-1.jpg' },
+  { id: 80, category: 'Wall Art',    title: '3D Floral Relief',          img: '/images/wall-art-2.jpg' },
+  { id: 81, category: 'Wall Art',    title: 'Peacock Relief Mural',      img: '/images/wall-art-3.jpg' },
+  { id: 82, category: 'Wall Art',    title: 'Hummingbird Art',           img: '/images/wall-art-4.jpg' },
+  { id: 83, category: 'Wall Art',    title: 'Krishna Pichwai Mural',     img: '/images/wall-art-5.jpg' },
   { id: 74, category: 'Furniture',   title: 'Modern TV Unit',            img: '/images/furniture-1.jpg' },
   { id: 75, category: 'Furniture',   title: 'Hexagonal Wall Shelf',      img: '/images/furniture-2.jpg' },
   { id: 76, category: 'Furniture',   title: 'Premium Vanity Mirror',     img: '/images/furniture-3.jpg' },

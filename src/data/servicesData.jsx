@@ -275,7 +275,7 @@ export const servicesData = [
     icon: <Palette size={36} />,
     title: 'Wall Art and Decor',
     desc: 'Curated artworks, sculptures, and decor pieces that give your interiors the final touch of brilliance.',
-    img: 'https://images.unsplash.com/photo-1549887534-1541e9326642?auto=format&fit=crop&w=1200&q=80',
+    img: '/images/wall-art-1.jpg',
     fullDesc: 'The finishing touches are what make a space feel like a home. We curate an exclusive collection of wall art, murals, artifacts, and designer mirrors to complement your interior theme.',
     features: [
       'Hand-Painted Wall Murals',
@@ -285,8 +285,11 @@ export const servicesData = [
       'Thematic Decor Gifting & Placement',
     ],
     works: [
-      'https://images.unsplash.com/photo-1549887534-1541e9326642?auto=format&fit=crop&w=800&q=80',
-      'https://images.unsplash.com/photo-1582201942988-13e60e4556ee?auto=format&fit=crop&w=800&q=80',
+      '/images/wall-art-1.jpg',
+      '/images/wall-art-2.jpg',
+      '/images/wall-art-3.jpg',
+      '/images/wall-art-4.jpg',
+      '/images/wall-art-5.jpg',
     ],
   },
 ];
