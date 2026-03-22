@@ -68,7 +68,7 @@ const Footer = () => {
             <ul className="space-y-6">
               <li className="text-sm text-white/40 leading-relaxed uppercase tracking-widest">
                 <span className="text-white font-bold block mb-1">Address</span>
-                Pallavaram, Chennai,<br />Tamil Nadu, India
+                Chennai,<br />Tamil Nadu, India
               </li>
               <li className="text-sm text-white/40 leading-relaxed uppercase tracking-widest">
                 <span className="text-white font-bold block mb-1">Inquiries</span>

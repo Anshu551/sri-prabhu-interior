@@ -208,7 +208,7 @@ const Lightbox = ({ item, onClose }) => {
           <h3 style={{ color: '#fff', fontSize: '1.4rem', fontWeight: 700, margin: '0.4rem 0 1.2rem', letterSpacing: '0.04em' }}>{item.title}</h3>
 
           <a
-            href="mailto:thesriprabhuinteriors@gmail.com"
+            href="mailto:suryaprakash.57762@gmail.com?subject=Inquiry%20About%20Your%20Work&body=Hello%20SRI%20PRABHU%20INTERIOR%2C%20I%20am%20interested%20in%20your%20work%20and%20would%20like%20to%20discuss%20a%20project."
             style={{
               display: 'inline-flex', alignItems: 'center', gap: '0.6rem',
               background: 'linear-gradient(135deg, #D4AF37, #b8960c)',

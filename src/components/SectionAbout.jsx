@@ -62,7 +62,7 @@ const SectionAbout = () => {
             </p>
             
             <p className="text-lg text-white/50 leading-relaxed font-light">
-              Based in Pallavaram, Chennai, Tamil Nadu, we deliver high-quality interior solutions with attention to detail, elegance, and modern design principles. Our approach combines traditional values with contemporary luxury.
+              Based in Chennai, Tamil Nadu, we deliver high-quality interior solutions with attention to detail, elegance, and modern design principles. Our approach combines traditional values with contemporary luxury.
             </p>
 
             <div className="flex gap-12 pt-6 items-center">

@@ -44,7 +44,7 @@ const ContactForm = () => {
                 </div>
                 <div>
                   <p className="text-[10px] uppercase font-bold tracking-widest text-white/40 mb-2">Location</p>
-                  <p className="text-lg font-bold">Pallavaram, Chennai,<br />Tamil Nadu, India</p>
+                  <p className="text-lg font-bold">Chennai,<br />Tamil Nadu, India</p>
                 </div>
               </div>
             </div>
